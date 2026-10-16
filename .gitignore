@@ -1,0 +1,50 @@
+# Build artifacts
+/tibberctl
+*.exe
+*.test
+*.out
+dist/
+build/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Local configuration and secrets
+.env
+.env.local
+.env.*.local
+auth.json
+state.json
+/profile/
+
+# Notes on what waits for the user, kept out of the repository
+STATUS.md
+
+# A fetched web client
+/bundle/
+
+# Captured traffic holds a login token and other people's data
+*.har
+*.proxymansession
+.playwright-cli/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+._*
+Thumbs.db
+
+# Claude Code
+.claude/
